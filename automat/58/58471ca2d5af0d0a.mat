@@ -1,0 +1,16 @@
+material : "eut2.dif.spec.add.env.tsnmap.a.rfx" {
+	texture[0] : "/vehicle/truck/westernstar_5700xe/interior/speaker.tobj"
+	texture_name[0] : "texture_base"
+	texture[1] : "/material/environment/interior_static/interior_static.tobj"
+	texture_name[1] : "texture_reflection"
+	texture[2] : "/vehicle/truck/westernstar_5700xe/interior/speaker_n.tobj"
+	texture_name[2] : "texture_nmap"
+	add_ambient : 0
+	diffuse : { 0.0396819 , 0.0396819 , 0.0396819 }
+	env_factor : { 0.375758 , 0.375758 , 0.375758 }
+	fresnel : { 0.2 , 0.9 }
+	reflection : 0
+	shininess : 60
+	specular : { 0.239559 , 0.239559 , 0.239559 }
+	queue_bias : 1
+}

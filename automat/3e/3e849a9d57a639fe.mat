@@ -1,0 +1,15 @@
+material : "eut2.dif.spec.weight.add.env.tsnmapuv.rfx" {
+	texture[0] : "/vehicle/truck/westernstar_5700xe/interior/details.tobj"
+	texture_name[0] : "texture_base"
+	texture[1] : "/material/environment/interior_static/interior_static.tobj"
+	texture_name[1] : "texture_reflection"
+	texture[2] : "/vehicle/truck/westernstar_5700xe/interior/details_n.tobj"
+	texture_name[2] : "texture_nmap"
+	add_ambient : 0
+	diffuse : { 0.522522 , 0.522522 , 0.522522 }
+	env_factor : { 0.447988 , 0.447988 , 0.447988 }
+	fresnel : { 0.3 , 1 }
+	reflection : 0
+	shininess : 70
+	specular : { 0.748414 , 0.748414 , 0.748414 }
+}

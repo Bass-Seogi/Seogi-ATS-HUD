@@ -1,0 +1,18 @@
+SiiNunit
+{
+accessory_addon_int_ui_data : dm.volvo.vnl.set_lglass
+{
+	name: "HUD DLC @@medium@@ m"
+	price: 1600
+	unlock: 1
+	icon: "gps.dlc_toys"
+	part_type: aftermarket
+
+	interior_model: "/vehicle/truck/upgrade/hud.pmd"
+	variant: dm
+
+	ui_path: "/ui/dashboard/gps.dlc_toys.sii"
+	ui_drawable_texture_path: "/vehicle/truck/upgrade/interior_decors/toyglass/gps_ui.tobj"
+	ui_drawable_size: (512, 256)
+}
+}

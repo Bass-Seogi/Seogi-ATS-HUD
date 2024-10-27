@@ -1,0 +1,15 @@
+SiiNunit
+{
+accessory_addon_data : gb.mack.pinnacle.set_lglass
+{
+	name: "HUD GPS @@big@@ b"
+	price: 1900
+	unlock: 2
+	icon: "gps.dlc_toys"
+	part_type: aftermarket
+
+	interior_model: "/vehicle/truck/upgrade/hud.pmd"
+	variant: gb
+	look: default
+}
+}

@@ -1,0 +1,48 @@
+SiiNunit
+{
+
+ui::text_template : txt.hudgps_text.speed {
+	name: "speed"
+	text: "<align hstyle=right vstyle=bottom><color value=FFFFFFFF><font face=/font/lcd_number_modern.font xscale=1.33 yscale=1.7>%0</font><offset vshift=37><font face=/font/big.font xscale=1.6 yscale=1.5> %1</font></align>"
+}
+
+ui::text_template : txt.hudgps_text.cruise_speed {
+	name: "cruise_speed"
+	text: "<align hstyle=right vstyle=bottom><color value=CCFFFFFF><font face=/font/lcd_number_modern.font xscale=1 yscale=1.0875>%0</font></align>"
+}
+
+ui::text_template : txt.hudgps_text.speed_limit {
+	name: "road speed limit"
+	text: "<img src=/material/ui/adviser/limit_sign.mat xscale=stretch yscale=stretch><ret><align hstyle=center vstyle=center><font face=/font/normal.font xscale=3.75 yscale=4><color value=FF000000>%0</font></align>"
+}
+
+ui::text_template : txt.hudgps_text.title {
+	name: "gps f"
+	text: "<align hstyle=center><color value=FFFFFFFF><font face=/font/big.font xscale=4.5 yscale=4.75>%0</font></align>"
+}
+
+ui::text_template : txt.hudgps_text.title2 {
+	name: "gps f2"
+	text: "<align hstyle=center><color value=FFFFFFFF><font face=/font/big.font xscale=2.25 yscale=2.375>%0</font></align>"
+}
+
+
+
+ui::text_template : txt.hudgps_text.text {
+	name: "GPS Text"
+	text: "<align hstyle=right vstyle=bottom><color value=FFFFFFFF><font face=/font/lcd_number_modern.font xscale=1.33 yscale=1.7>%0</font></font><offset vshift=64><font face=/font/big.font xscale=1.5 yscale=1.5> %1</font></align>"
+}
+
+ui::text_template : txt.tmp_gps.trip_dist {
+	name: "GPS Trip Distance"
+	text: "<align hstyle=right vstyle=bottom><color value=FFFFFFFF><font face=/font/lcd_number_modern.font xscale=1 yscale=1.0875>%0</font><offset vshift=14><font face=/font/big.font xscale=1.5 yscale=1.5> %1</font></align>"
+}
+ui::text_template : txt.hudgps_text.clock2 {
+	name: " clock 3"
+	text: "<align hstyle=right vstyle=bottom><color value=FFFFFFFF><font face=/font/lcd_number_modern.font xscale=1.33 yscale=1.7>%0</font></align>"
+}
+ui::text_template : txt.hudgps_text.speed_limit2 {
+	name: "navigation limit"
+	text: "<img src=/material/ui/adviser/limit_sign.mat xscale=stretch yscale=stretch><ret><align hstyle=center vstyle=center><font face=/font/normal.font xscale=3.5 yscale=3.7><color value=FF000000>%0</font></align>"
+}
+}

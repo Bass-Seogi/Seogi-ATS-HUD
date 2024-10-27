@@ -1,0 +1,9 @@
+material : "eut2.dif.decal.add.rfx" {
+	texture[0] : "/vehicle/truck/westernstar_5700xe/interior/decals.tobj"
+	texture_name[0] : "texture_base"
+	add_ambient : 0
+	diffuse : { 0.195994 , 0.195994 , 0.195994 }
+	reflection : 0
+	shininess : 0
+	specular : { 0 , 0 , 0 }
+}

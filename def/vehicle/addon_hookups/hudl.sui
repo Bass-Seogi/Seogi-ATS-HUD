@@ -1,0 +1,89 @@
+accessory_hookup_int_data : gs.hudl.addon_hookup
+{
+	name: "HUD GPS @@small@@"
+	icon: "gps.dlc_toys"
+	part_type: aftermarket
+	model: "/vehicle/truck/upgrade/hud.pmd"
+	# coll: "hud.pmc"
+	variant: gs
+	suitable_for[]: "set_lglass"
+	price: 1500
+	unlock: 2
+}
+
+accessory_hookup_int_data : gm.hudl.addon_hookup
+{
+	name: "HUD GPS @@medium@@"
+	icon: "gps.dlc_toys"
+	part_type: aftermarket
+	model: "/vehicle/truck/upgrade/hud.pmd"
+	# coll: "hud.pmc"
+	variant: gm
+	suitable_for[]: "set_lglass"
+	price: 1700
+	unlock: 2
+}
+
+accessory_hookup_int_data : gb.hudl.addon_hookup
+{
+	name: "HUD GPS @@big@@"
+	icon: "gps.dlc_toys"
+	part_type: aftermarket
+	model: "/vehicle/truck/upgrade/hud.pmd"
+	# coll: "hud.pmc"
+	variant: gb
+	suitable_for[]: "set_lglass"
+	price: 2200
+	unlock: 2
+}
+
+accessory_hookup_int_ui_data : ds.hudl.addon_hookup
+{
+	name: "HUD DLC @@small@@"
+	icon: "gps.dlc_toys"
+	part_type: aftermarket
+	model: "/vehicle/truck/upgrade/hud.pmd"
+	# coll: "hud.pmc"
+	variant: ds
+	suitable_for[]: "set_lglass"
+	price: 2500
+	unlock: 1
+
+	ui_path: "/ui/dashboard/gps.dlc_toys.sii"
+	ui_drawable_texture_path: "/vehicle/truck/upgrade/interior_decors/toyglass/gps_ui.tobj"
+	ui_drawable_size: (512, 256)
+}
+
+accessory_hookup_int_ui_data : dm.hudl.addon_hookup
+{
+	name: "HUD DLC @@medium@@"
+	icon: "gps.dlc_toys"
+	part_type: aftermarket
+	model: "/vehicle/truck/upgrade/hud.pmd"
+	# coll: "hud.pmc"
+	variant: dm
+	suitable_for[]: "set_lglass"
+	price: 2700
+	unlock: 1
+
+	ui_path: "/ui/dashboard/gps.dlc_toys.sii"
+	ui_drawable_texture_path: "/vehicle/truck/upgrade/interior_decors/toyglass/gps_ui.tobj"
+	ui_drawable_size: (512, 256)
+}
+
+accessory_hookup_int_ui_data : db.hudl.addon_hookup
+{
+	name: "HUD DLC @@big@@"
+	icon: "gps.dlc_toys"
+	part_type: aftermarket
+	model: "/vehicle/truck/upgrade/hud.pmd"
+	# coll: "hud.pmc"
+	variant: db
+	suitable_for[]: "set_lglass"
+	price: 3200
+	unlock: 1
+
+	ui_path: "/ui/dashboard/gps.dlc_toys.sii"
+	ui_drawable_texture_path: "/vehicle/truck/upgrade/interior_decors/toyglass/gps_ui.tobj"
+	ui_drawable_size: (512, 256)
+}

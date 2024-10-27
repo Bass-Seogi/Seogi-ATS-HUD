@@ -1,0 +1,164 @@
+SiiNunit
+{
+ui::window : _nameless.wnd {
+ window_handler: null
+ clip_children: true
+ keep_aspect: none
+ user_string_data: ""
+ first_direction_focus_id: 0
+ fitting: false
+ my_children: 1
+ my_children[0]: _nameless._.map
+ my_children[1]: _nameless._.overlay
+ coords_l: 0
+ coords_r: 512
+ coords_t: 512
+ coords_b: 0
+ area_l: 0
+ area_r: 512
+ area_t: 512
+ area_b: 0
+ id: 0
+ layer: 0
+ tab: -1
+ pointer: -1
+ my_parent: null
+}
+
+ui::text : _nameless._.map {
+ text: "<img src=/material/ui/dashboard/bare_map.mat xscale=stretch yscale=stretch left=0.3 right=0.7 bottom=0.3 top=0.7>"
+ coords_l: 0
+ coords_r: 512
+ coords_t: 512
+ coords_b: 0
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: -1
+ tab: -1
+ pointer: -1
+ my_parent: _nameless.wnd
+}
+
+ui::group : _nameless._.overlay {
+ fitting: false
+ my_children: 7
+ my_children[0]: _nameless._.speedlimit
+ my_children[1]: _nameless._.speed
+ my_children[2]: _nameless._.cruise
+ coords_l: 0
+ coords_r: 512
+ coords_t: 512
+ coords_b: 0
+ area_l: 0
+ area_r: 512
+ area_t: 512
+ area_b: 0
+ id: 950
+ layer: -1
+ tab: -1
+ pointer: -1
+ my_parent: _nameless.wnd
+}
+
+ui::link_text : _nameless._.speedlimit {
+ link_pointer: -1
+ value: 100
+ look_template: txt.hudgps_text.speed_limit
+ text: ""
+ coords_l: 420
+ coords_r: 500
+ coords_t: 90
+ coords_b: 10
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ # https://modding.scssoft.com/wiki/Documentation/Engine/Truck_Interior_Animations_and_IDs
+ id: 1610
+ layer: 0
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.overlay
+}
+
+ui::text_common : _nameless._.speed {
+ value: "199|km/h"
+ look_template: txt.hudgps_text.speed
+ text: ""
+ coords_l: 0
+ coords_r: 98
+ coords_t: 75
+ coords_b: 0
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 1020
+ layer: 3
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.overlay
+}
+
+ui::group : _nameless._.cruise {
+ fitting: false
+ my_children: 2
+ my_children[0]: _nameless._.cc.icon
+ my_children[1]: _nameless._.lg_cruise
+ coords_l: 0
+ coords_r: 512
+ coords_t: 512
+ coords_b: 0
+ area_l: 15
+ area_r: 270
+ area_t: 126
+ area_b: 58
+ # https://modding.scssoft.com/wiki/Documentation/Engine/Truck_Interior_Animations_and_IDs
+ id: 1240
+ layer: 0
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.overlay
+}
+
+ui::text : _nameless._.cc.icon {
+ text: "<img src=/material/ui/dashboard/scania_2016/dashboard_computer.mat xscale=stretch yscale=stretch left=p216 right=p256 top=p87 bottom=p121>"
+ coords_l: 0
+ coords_r: 25
+ coords_t: 150
+ coords_b: 125
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 3
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.cruise
+}
+
+ui::text_common : _nameless._.lg_cruise {
+ value: "199|km/h"
+ look_template: txt.hudgps_text.cruise_speed
+ text: ""
+ coords_l: 25
+ coords_r: 98
+ coords_t: 150
+ coords_b: 125
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ # https://modding.scssoft.com/wiki/Documentation/Engine/Truck_Interior_Animations_and_IDs
+ id: 1100
+ layer: 3
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.cruise
+}
+
+}

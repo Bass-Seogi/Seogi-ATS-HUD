@@ -1,0 +1,33 @@
+﻿[blue]서기 ATS HUD(heads up display)
+1.51 부터 정상 작동합니다
+
+[red]내 모드는 창작마당에만 올려 집니다.
+다른 사이트에서 내 모드를 찾아도 지원하지 않습니다.[normal]
+
+
+
+HUD - 핸들위에 점 누르면 HUD 목록이 나타 납니다
+(HUD DLC - Cabin Accessories DLC 필요)
+
+크기ㅤ - 소(기본크기), 중, 대
+
+
+peterbilt.579 (Rear cam)
+kenworth.t680
+kenworth.w900 (Rear cam)
+peterbilt.389
+
+intnational.lonestar
+intnational.lt
+intnational.9900i
+
+mack.anthem
+mack.pinnacle
+
+freightliner.cascadia2019 (Rear cam)
+westernstar.49x
+westernstar.57x
+westernstar.5700xe
+
+volvo.vnl
+volvo.vnl2018

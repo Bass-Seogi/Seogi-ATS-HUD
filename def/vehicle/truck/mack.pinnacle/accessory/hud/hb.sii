@@ -1,0 +1,18 @@
+SiiNunit
+{
+accessory_addon_int_ui_data : hb.mack.pinnacle.hud
+{
+	name: "HUD B @@big@@"
+	price: 2150
+	unlock: 0
+	icon: "gps.dlc_toys"
+	part_type: aftermarket
+
+	interior_model: "/vehicle/truck/upgrade/hudn.pmd"
+	variant: nb
+
+	ui_path: "/ui/dashboard/hudgps.sii"
+	ui_drawable_texture_path: "/vehicle/truck/upgrade/interior_decors/toyglass/empty.tobj"
+	ui_drawable_size: (512, 512)
+}
+}

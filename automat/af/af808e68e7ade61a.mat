@@ -1,0 +1,20 @@
+effect : "eut2.dif.spec.add.env.rfx" {
+	additional_ambient : 0.000000
+	diffuse : { 1.000000 , 1.000000 , 1.000000 }
+	env_factor : { 0.050876 , 0.050876 , 0.050876 }
+	fresnel : { 1.000000 , 0.400000 }
+	reflection : 0.000000
+	shininess : 18.000000
+	specular : { 1.000000 , 1.000000 , 1.000000 }
+	texture : "texture_base" {
+		source : "/vehicle/truck/kenworth_t680/interior/speaker.tobj"
+		sampler : default
+	}
+	texture : "texture_reflection" {
+		source : "/material/environment/soft_reflection/soft_reflection.tobj"
+		mip_filter : none
+		u_address : clamp
+		v_address : clamp
+		w_address : clamp
+	}
+}

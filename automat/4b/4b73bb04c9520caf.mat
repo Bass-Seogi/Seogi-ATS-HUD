@@ -1,0 +1,30 @@
+effect : "eut2.dif.spec.oclu.add.env.tsnmapuv.rfx" {
+	additional_ambient : 0.000000
+	diffuse : { 0.903930 , 0.903930 , 0.903930 }
+	env_factor : { 0.037636 , 0.037636 , 0.037636 }
+	fresnel : { 0.200000 , 0.900000 }
+	reflection : 0.000000
+	shininess : 20.000000
+	specular : { 0.439140 , 0.439140 , 0.439140 }
+	texture : "texture_base" {
+		source : "/vehicle/truck/kenworth_t680/interior/leather_beige.tobj"
+		sampler : default
+	}
+	texture : "texture_nmap" {
+		source : "/vehicle/truck/kenworth_t680/interior/seat_no.tobj"
+		u_address : clamp
+		v_address : clamp
+	}
+	texture : "texture_oclu" {
+		source : "/vehicle/truck/kenworth_t680/interior/seat_ao.tobj"
+		u_address : clamp
+		v_address : clamp
+	}
+	texture : "texture_reflection" {
+		source : "/material/environment/soft_reflection/soft_reflection.tobj"
+		mip_filter : none
+		u_address : clamp
+		v_address : clamp
+		w_address : clamp
+	}
+}

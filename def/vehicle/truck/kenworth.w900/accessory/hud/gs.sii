@@ -1,0 +1,15 @@
+SiiNunit
+{
+accessory_addon_data : gs.kenworth.w900.hud
+{
+	name: "HUD GPS @@small@@ s"
+	price: 1800
+	unlock: 2
+	icon: "gps.dlc_toys"
+	part_type: aftermarket
+
+	interior_model: "/vehicle/truck/upgrade/hud.pmd"
+	variant: gs
+	look: default
+}
+}

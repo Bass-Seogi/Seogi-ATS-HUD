@@ -1,0 +1,17 @@
+material : "eut2.dif.spec.oclu.weight.add.env.tsnmapuv.rfx" {
+	texture[0] : "/vehicle/truck/kenworth_w900/interior/details.tobj"
+	texture_name[0] : "texture_base"
+	texture[1] : "/vehicle/truck/kenworth_w900/interior/int_big_no.tobj"
+	texture_name[1] : "texture_nmap"
+	texture[2] : "/vehicle/truck/kenworth_w900/interior/int_big_ao.tobj"
+	texture_name[2] : "texture_oclu"
+	texture[3] : "/material/environment/fuzzy_reflection/fuzzy_reflection.tobj"
+	texture_name[3] : "texture_reflection"
+	add_ambient : 0
+	diffuse : { 0.522522 , 0.522522 , 0.522522 }
+	env_factor : { 1 , 1 , 1 }
+	fresnel : { 1 , 0.4 }
+	reflection : 0
+	shininess : 18
+	specular : { 0.522522 , 0.522522 , 0.522522 }
+}

@@ -1,0 +1,15 @@
+effect : "eut2.dif.spec.weight.tsnmap.rfx" {
+	additional_ambient : 0.000000
+	diffuse : { 0.606419 , 0.606419 , 0.606419 }
+	reflection : 0.000000
+	shininess : 50.000000
+	specular : { 0.214041 , 0.214041 , 0.214041 }
+	texture : "texture_base" {
+		source : "/vehicle/truck/westernstar_49x/interior/rubber_floor.tobj"
+		sampler : default
+	}
+	texture : "texture_nmap" {
+		source : "/vehicle/truck/westernstar_49x/interior/rubber_floor_n.tobj"
+		sampler : default
+	}
+}
