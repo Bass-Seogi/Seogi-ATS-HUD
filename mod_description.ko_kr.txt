@@ -1,8 +1,8 @@
 ﻿[blue]서기 ATS HUD(heads up display)
-1.52 부터 정상 작동합니다
+1.53 부터 정상 작동합니다
 
 [red]내 모드는 창작마당에만 올려 집니다.
-다른 사이트에서 내 모드를 찾아도 지원하지 않습니다.[normal]
+다른 곳에서 이 모드를 발견하면, 불법으로 유출된 것이므로 사용하지 마십시오.[normal]
 
 
 
@@ -12,9 +12,10 @@ HUD - 핸들위에 점 누르면 HUD 목록이 나타 납니다
 크기ㅤ - 소(기본크기), 중, 대
 
 
-peterbilt.579 (Rear cam)
+peterbilt.579
 kenworth.t680
-kenworth.w900 (Rear cam)
+kenworth.t680_2022
+kenworth.w900
 peterbilt.389
 
 intnational.lonestar
@@ -24,7 +25,7 @@ intnational.9900i
 mack.anthem
 mack.pinnacle
 
-freightliner.cascadia2019 (Rear cam)
+freightliner.cascadia2019
 westernstar.49x
 westernstar.57x
 westernstar.5700xe
